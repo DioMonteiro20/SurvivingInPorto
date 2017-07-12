@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/nomeDoBotao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar Conta"
+        android:layout_below="@+id/txtv1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/nomeDoBotao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logoff"
+        android:layout_below="@+id/nomeDoBotao"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="onClick"
+        android:clickable="true"/>
+</LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

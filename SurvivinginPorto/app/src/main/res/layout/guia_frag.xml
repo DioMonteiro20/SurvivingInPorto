@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/guia2"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="A cidade do Porto tem muitos pontos de atracção turísticos.
+Sendo que desde as preferências pelas paisagens, monumentos ou esculturas aos eventos sociais, música e literatura todas elas podem ser correspondidas. \n\nExpomos aqui algumas sugestões:"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:layout_marginTop="37dp"
+                android:layout_below="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txtv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv0"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                />
+
+            <Button
+                android:id="@+id/nomeDoBotao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textoDoBotao"
+                android:layout_below="@+id/txtv1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="false"
+   >
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="560dp"
+       >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="232dp"
+        android:src="@drawable/hab2"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Após ter chegado à nossa cidade, o passo mais importante que precisa de dar é encontrar um lugar para viver nos próximos meses.\nAqui pode ler algumas informações sobre o mercado imobiliário no Porto e onde pode ficar até encontrar um sítio permanente para morar."
+        android:elegantTextHeight="false"
+
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtv0"
+        android:layout_below="@+id/txtv0"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+        <TextView
+            android:id="@+id/txtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_below="@+id/txtv1"
+            android:layout_marginTop="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="left"
+            android:text="É senhorio e pretende divulgar a sua habitação?\nEnvie-nos os seus dados para posterior publicação preenchendo o seguinte formulário para entrar na nossa base de dados, e ser contactado(a) se houverem estudantes que tenham interesse na habitação."/>
+
+        <TextView
+            android:id="@+id/txtv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="26dp"
+
+
+            android:gravity="center"
+            android:text="FORMULÁRIO\n\n"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:clickable="true"
+            android:layout_below="@+id/txtv2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/nomeDoBotao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoDoBotao"
+            android:layout_below="@+id/txtv11"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+</RelativeLayout>

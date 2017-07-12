@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/habitacoes"
+            android:checked="false"
+            android:icon="@drawable/hab"
+            android:title="@string/hab_string" />
+
+        <item
+            android:id="@+id/trans"
+            android:checked="false"
+            android:icon="@drawable/trans"
+            android:title="Transportes" />
+
+        <item
+            android:id="@+id/guia"
+            android:checked="false"
+            android:icon="@drawable/guia"
+            android:title="@string/guia_string" />
+
+        <item
+            android:id="@+id/rest"
+            android:checked="false"
+            android:icon="@drawable/rest"
+            android:title="@string/rest_string" />
+
+
+
+        <item
+            android:id="@+id/eventos"
+            android:checked="false"
+            android:icon="@drawable/eventos"
+            android:title="@string/eventos_string" />
+
+        <item
+            android:id="@+id/loc"
+            android:checked="false"
+            android:icon="@drawable/loc"
+            android:title="@string/loc_string" />
+        <item
+            android:id="@+id/list"
+            android:checked="false"
+            android:icon="@drawable/list"
+            android:title="Listagem de Utilizadores" />
+    </group>
+    <item android:title="Parcerias">
+        <menu>
+
+            <item
+                android:id="@+id/moveis"
+                android:checked="false"
+                android:icon="@drawable/moveis"
+                android:title="@string/moveis_string" />
+            <item
+                android:id="@+id/desc"
+                android:checked="false"
+                android:icon="@drawable/descontos"
+                android:title="@string/desc_string" />
+
+        </menu>
+    </item>
+    <item android:title="Dados Pessoais">
+        <menu>
+
+            <item
+                android:id="@+id/perfil"
+                android:checked="false"
+                android:icon="@drawable/perfil"
+                android:title="@string/perfil_string" />
+            <item
+                android:id="@+id/conta"
+                android:checked="false"
+                android:icon="@drawable/conta"
+                android:title="@string/conta_string" />
+
+        </menu>
+    </item>
+    <item android:title="Look@me!">
+        <menu>
+
+            <item
+                android:id="@+id/mensagem"
+                android:checked="false"
+                android:icon="@drawable/sms"
+                android:title="@string/msg_string" />
+
+        </menu>
+    </item>
+</menu>

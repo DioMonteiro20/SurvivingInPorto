@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Surviving in Porto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Sobre</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="trans_string">Transportes</string>
+    <string name="hab_string">Habitações e Hospedagem</string>
+    <string name="guia_string">Guia da Cidade</string>
+    <string name="rest_string">Restauração e Gastronomia</string>
+    <string name="subheader">Subheader</string>
+    <string name="eventos_string">Festas/Eventos</string>
+    <string name="moveis_string">Comunicações Móveis</string>
+    <string name="desc_string">Cartão Erasmus/descontos</string>
+    <string name="loc_string">Localizar Utilizadores - GPS</string>
+    <string name="list_string">Listagem de Utilizadores</string>
+    <string name="perfil_string">Perfil</string>
+    <string name="conta_string">Conta</string>
+    <string name="closeDrawer">Menu</string>
+    <string name="openDrawer">Menu Fechado</string>
+    <string name="txtv0">TextView</string>
+    <string name="txtv1">TextView</string>
+    <string name="txtv2">TextView</string>
+    <string name="title_activity_mapa__rest">Map</string>
+    <string name="textoDoBotao">Ver Mapa</string>
+    <string name="textoDoBotao1">Saber mais informações..</string>
+    <string name="textoDoBotao2">Procurar..</string>
+    <string name="action_logoff">Logoff</string>
+    <string name="contactos">Contacte-nos</string>
+    <string name="msg_string">Enviar mensagem..</string>
+
+</resources>

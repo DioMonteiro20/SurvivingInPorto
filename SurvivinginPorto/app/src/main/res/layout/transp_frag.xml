@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/trans1"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aqui na nossa cidade, temos dois principais meios de transporte: autocarro e metro. Na verdade, temos um sistema de metro incrível que atravessa toda a cidade e também uma boa quantidade de autocarros. O sistema é um pouco diferente de outros países. Aqui nós temos um cartão chamado 'Andante' que lhe permite viajar tanto de metro e autocarro.\n"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp"
+                android:gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <TextView
+                android:id="@+id/txtv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/txtv0"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Clicando no link que se encontra abaixo será encaminhado para a aplicação MOVE-ME com quem temos parceria que lhe irá facultar os tempos estimados dos transportes que pretende utilizar (Caso não tenha instalada a aplicação, pode fazê-lo acedendo ao link da PLAY STORE):"/>
+
+            <TextView
+                android:id="@+id/txtv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv2"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="MOVE-ME\n"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:onClick="move"
+                android:clickable="true"
+                />
+            <TextView
+                android:id="@+id/txtv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv3"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="PLAY STORE\n\n"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:onClick="play"
+                android:clickable="true"
+
+          />
+
+            <Button
+                android:id="@+id/nomeDoBotao1"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textoDoBotao1"
+                android:layout_below="@+id/txtv4"
+                android:gravity="left"
+                android:onClick="maisInfo"
+                android:clickable="true"
+             />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/transp1"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/nomeDoBotao1"
+
+                android:visibility="invisible"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <TextView
+                android:id="@+id/txtv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="left"
+                android:visibility="invisible"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:text="Existem dois tipos de cartões Andante:\n
+Cartão Azul Andante\n\n
+
+O bilhete simples é o cartão Andante azul, que permite que pague por viagem. A principal coisa a saber sobre este cartão é que ele só pode ser carregado com um tipo de viagem. Os títulos do dia-a-dia são válidos para as zonas que o seu título indica.\n
+Por exemplo: Título Z2 de uma linha azul permite que você vá, por exemplo, de Trindade para Norteshopping (Sete Bicas), dependendo da estação de metro em que tenha validado o seu bilhete.\nSe estiver a viajar da zona 2 para uma estação de zona 3, compra um bilhete de zona 3.\n
+Pode também recarregar o cartão com um maior número de viagens ('Títulos') se preferir.\nOs títulos permitem viajar de um certo tempo, de acordo com as áreas que incluem
+(Z2 e Z3 = 1h; Z4 = 1h15m; Z5 = 1h30; Z6 = 1h45; Z7 = 2h).\n\nAqui está uma lista rápida do que saber sobre a compra e utilização de bilhetes Andante azuis
+no Metro do Porto:\n\n
+- Bilhete de papel;\n
+- Recarregável com qualquer tipo de título de viagem;\n
+- Um bilhete por pessoa;\n
+- Este bilhete pode conter vários títulos do mesmo tipo (por exemplo, 10 Z2 títulos);\n
+- Só pode alterar o tipo de título quando ele está vazio (por exemplo, mudando de Z2 para Z3
+só é possível uma vez que tenha usado todos os seus títulos);\n
+- Antes de entrar no metro, deve validar o seu cartão, segurando-o na frente do sensor - quando
+ele apita o seu bilhete foi validado para a viagem. Não existem barreiras para impedi-lo no metro,
+mas os fiscais do Metro podem entrar nos veiculos e verificar o seu Andante para se certificar de
+que você tenha validado, e está a viajar dentro das suas zonas;\n
+- A primeira vez que comprar um bilhete numa máquina, tem que comprar o cartão Andante, que tem o valor de € 0,60. Há também um bilhete diário, conhecido como Andante 24, que permite ao utilizador fazer viagens ilimitadas dentro de um determinado dia nas zonas escolhidas. Por exemplo, um bilhete Z3 (3 zonas) é válido por 3 zonas em qualquer direção da viagem desde a primeira zona em que
+foi validado.\n\n
+Cartão Gold Andante\n\n
+
+Embora possa usar bilhete Andante Gold para títulos regulares, este é usado principalmente para passes mensais. Estes títulos são válidos para as zonas que escolheu e permitem viajar nessas áreas durante um mês. Se está a pensar em viver no Porto, ou permanecer por mais de três semanas, recomenda-se que obtenha o Gold Andante. No entanto, o sistema de zonas é muito diferente na versão Gold, em relação à versão azul. Há cerca de 11 zonas no Andante Gold (C1, C2, S11, etc.)
+O centro é C1. Quando comprar o cartão, deve comprar mais zonas (sendo que C1 é automaticamente incluída). O Andante Gold pode ser usado em todas as linhas de metro, o funicular e todos os autocarros. Quando estiver a comprar o cartão, deve ter uma fotografia sua (tambem podem utilizar a foto do seu passaporte e amplifica-la para colocar no cartão no próprio momento.)\n\n
+
+- Só pode ser usado pelo titular;\n
+- Vale por um mês a cada compra;\n
+- Preço por cartão Gold = 5 euros;\n
+- Preço mensal depende de quantas zonas escolher. Normalmente, só precisa de duas zonas sendo que o preço é 28,40 €, se tiver até 23 anos de idade é 21,30 €"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

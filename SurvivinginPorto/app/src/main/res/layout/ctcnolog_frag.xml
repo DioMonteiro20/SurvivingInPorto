@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    </LinearLayout></ScrollView>
+
+    <TextView
+        android:id="@+id/txtv12"
+        android:layout_width="fill_parent"
+        android:layout_height="207dp"
+        android:text="Para qualquer esclarecimento de dúvidas ou proposta de marketing, contacte os desenvolvedores:\n\n\n- Diogo Monteiro -\n diogomonteiro1991@gmail.com\n- Ricardo Silva -\n ricardoapsilva93@hotmail.com\n\n"
+        android:gravity="center"
+        android:textSize="16dip"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/linkSignup14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Volte aqui para o Login!"
+        android:gravity="center"
+        android:textSize="16dip"
+
+        android:onClick="loginCon"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtv12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="81dp" />
+</RelativeLayout>

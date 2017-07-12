@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/portoponto2"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:id="@+id/txtv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nBem-vindo à cidade do Porto!\n"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:text="'Surviving in Porto' vai ajudá-lo a sobreviver na 'Antiga, Mui Nobre, Sempre Leal e Invicta' cidade do Porto. Basta para isso aceder às diversas opções do Menu que o ajudarão a encontrar casa para viver, transportes para se deslocar e um guia da cidade para nunca se sentir perdido.\n
+Poderá ter acesso aos sítios com melhor Gastronomia, bem como ficar informado dos eventos que vão ocorrer no Porto.\n Existem também áreas destinadas à informação de descontos que pode usufruir e ao modo para adquirir os melhores planos de comunicações móveis existentes no mercado.\n
+Para nunca perder os seus amigos de vista e para evitar desencontros, existe a possibilidade de os localizar em tempo real, recorrendo ao mapa por GPS e de contactar com os mesmos, enviando uma mensagem rápida - Look@me!"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:layout_below="@+id/txtv1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtv0"
+                android:layout_marginTop="22dp"
+                android:text="Termos e Políticas.\n\n"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:onClick="termos"
+                android:clickable="true"
+                android:layout_marginLeft="125dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

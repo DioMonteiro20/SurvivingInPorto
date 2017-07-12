@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Para qualquer esclarecimento de dúvidas ou proposta de marketing, contacte os desenvolvedores:\n\n\n- Diogo Monteiro -\n diogomonteiro1991@gmail.com\n- Ricardo Silva -\n ricardoapsilva93@hotmail.com\n\n"
+        android:gravity="center"
+        android:textSize="16dip"
+        android:textAlignment="center"
+       />
+
+
+
+</LinearLayout>

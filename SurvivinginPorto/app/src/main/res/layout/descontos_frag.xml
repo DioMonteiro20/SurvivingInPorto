@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/esn1"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nesta secção estão disponíveis os descontos que temos para si através da parceria desenvolvida com a ESN Porto.\nPara os obter basta adquirir o cartão ESN.\n\n
+"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp"
+                android:gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <TextView
+                android:id="@+id/txtv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_below="@+id/imageView8"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="left"
+                android:text="O cartão ESN é o cartão de membro oficial da Rede de Estudantes Erasmus. Este é estritamente pessoal, e nunca deve ser utilizado por outra pessoa que não o titular do cartão, sendo que sem uma foto e dados pessoais corretos no cartão ESN, este é inválido. O tempo de validade do mesmo é de um ano.\nEste cartão pode ser usado a nível europeu devido à rede ESN estabelecer esse mesmo protocolo.\n\nNa cidade do Porto o custo deste cartão é o valor de 10 € e para além de lhe oferecer descontos em outras entidades dá-lhe condições especiais nas atividades realizadas pela ESN Porto.\n\n\nClicando no primeiro link que se encontra a baixo poderá visualizar todos os descontos e para pedir já o seu cartão Erasmus pode clicar no segundo link:"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="232dp"
+                android:layout_height="135dp"
+                android:src="@drawable/card"
+                android:scaleType="fitXY"
+                android:layout_below="@+id/txtv0"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/txtv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv2"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Descontos ESN-Surviving In Porto\n"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:onClick="descontos"
+                android:clickable="true"
+                />
+            <TextView
+                android:id="@+id/txtv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv9"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="Obter Cartão ESN\n\n"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:onClick="cartao"
+                android:clickable="true"
+
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

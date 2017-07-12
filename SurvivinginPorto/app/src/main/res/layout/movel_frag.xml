@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:src="@drawable/nos"
+                android:layout_gravity="top"
+                android:scaleType="fitXY"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/txtv0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOS é uma das maiores empresas de telecomunicações a operar em Portugal.
+A fim de responder às necessidades dos jovens, NOS criou o WTF: uma marca exclusiva e um plano de comunicações móveis para todos com menos de 25 anos de idade.
+WTF inclui tudo o que precisa para se manter em contato com os seus amigos e família e para aproveitar ao máximo a sua estadia aqui em Portugal.\n Pode verificar o website concebido especialmente para estudantes de Erasmus clicando no link que está a baixo:"
+                android:elegantTextHeight="false"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:layout_below="@+id/imageView1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+            <TextView
+                android:id="@+id/txtv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtv0"
+                android:layout_below="@+id/txtv0"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:text="http://erasmus.wtf.pt/\n"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:onClick="sitErasmus"
+                android:clickable="true"
+                />
+
+            <Button
+                android:id="@+id/nomeDoBotao20"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textoDoBotao1"
+                android:layout_below="@+id/txtv10"
+                android:gravity="left"
+                android:onClick="maisInfo2"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:id="@+id/txtv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_below="@+id/nomeDoBotao20"
+                android:layout_marginTop="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="left"
+                android:visibility="invisible"
+                android:text="Benefícios para Erasmus e como proceder\n\n
+
+Com WTF tem:\n\n
+
+- 500 MB, 1 GB ou 2 GB internet (dependendo do plano de telemóvel que escolher, W, V ou F);\n
+- Mensagens de texto ilimitadas e 500 minutos para qualquer rede portuguesa;\n
+- Uso gratuito de aplicações como o Viber, WhatsApp, Skype, Facebook Messenger, Blackberry Messenger, Snapchat, Facetime e iMessage. Sempre que usar uma dessas aplicações não será cobrado e os seus 500 MB não se gastam, por isso estará à vontade para ligar para os seus amigos durante horas no Skype ou para passar o dia inteiro a enviar mensagens de texto no WhatsApp.\n\n
+
+Como pode começar a usar o seu cartão de WTF?\n\n
+
+Para ter acesso a essas condições, precisa de ativar o seu cartão SIM, colocando-o dentro do seu telefone. Em seguida, receberá um SMS (em Português) pedindo-lhe para aceder ao link welcome.wtf.pt a fim de escolher o seu plano de telemóvel WTF (W, V ou F). A diferença entre eles é a quantidade de internet incluída e o gasto mensal, assim sendo sinta-se livre para escolher aquele que melhor se adapta às suas necessidades.\n\n
+[Importante]: caso não tenha um smartphone, terá que ligar 12060 e seguir estes passos por telefone. Se não fala Português, recomendamos que peça ajuda a alguém. Depois de concluir a primeira etapa, receberá uma mensagem de texto pedindo-lhe para responder com o seu passaporte ou número de cartão de estudante. Responda para que possa continuar a utilizar o seu cartão WTF.
+Finalmente, deve carregar o seu cartão em qualquer loja NOS ou máquina ATM com pelo menos € 7,80, € 9,90 ou € 15,50, dependendo do plano móvel WTF que escolheu. Este carregamento irá permitir que use o seu cartão WTF por um mês. 30 dias depois, deve carregar novamente. Não se esqueça que há uma promoção exclusiva para os estudantes Erasmus: cada vez que carregar € 10 ou mais (de uma vez) ganha um bónus de € 2,50, que pode usar como quiser.\n\n
+
+Pode sempre verificar o estado do cartão WTF (quantidade atual de € que tem, MB disponiveis de net, etc), marcando * 111 #."/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

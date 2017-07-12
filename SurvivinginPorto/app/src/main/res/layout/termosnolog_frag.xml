@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:fillViewport="false"
+        >
+
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="560dp"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="24dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:gravity="left"
+                android:id="@+id/txtv1"
+                android:text="Termos de serviço\n\n
+
+Este acordo foi escrito em  português (POR). Nas situações em que qualquer versão traduzida deste acordo entre em contradição com a versão em português, é a versão em português  que prevalece.
+Data da última revisão: 20 de Junho de 2016
+Declaração de direitos e responsabilidades
+Esta Declaração de direitos e responsabilidades ('Declaração', 'Termos' ou 'DDR') representa os nossos termos de serviço que regem a nossa relação com os utilizadores e outras pessoas que interagem com o Surviving in Porto ou acedam aos serviços do Surviving in Porto. Ao utilizares ou acederes aos Serviços do Surviving in Porto, aceitas a presente Declaração, conforme periodicamente atualizada de acordo com a Secção 10 abaixo. Em acréscimo, no final deste documento, podes consultar os recursos que te ajudam a perceber o modo de funcionamento do Surviving in Porto.
+Uma vez que o Surviving in Porto fornece uma vasta gama de Serviços, podemos pedir-te que revejas e aceites termos suplementares que se apliquem à tua interação com determinada aplicação, produto ou serviço. Caso esses termos suplementares entrem em conflito com esta DDR, os termos suplementares associados à aplicação, produto ou serviço prevalecem relativamente à tua utilização da aplicação, produto ou serviço no âmbito do conflito.
+1.	Privacidade
+
+A tua privacidade é muito importante para nós. Concebemos a nossa Política de dados a fim de divulgar dados importantes sobre como podes utilizar o Surviving in Porto para partilhar informação com outras pessoas e de que forma recolhemos e podemos utilizar o teu conteúdo e informação. Recomendamos que leias a Política de dados e que a utilizes para tomar decisões informadas.
+
+2.	Partilhar conteúdo e informação
+
+És o proprietário de todo o conteúdo e informação que publicas no Surviving in Porto e ao Registar a conta estás a permitir que os proprietários do Surviving in Porto possam utilizar a tua localização actual e dados pessoais para os serviços da aplicação, bem como as tuas tuas localizações antigas nas quais já permitiste que o GPS te localize para fins de marketing do Surviving in Porto. Além disso:
+1.	Relativamente a conteúdo abrangido por direitos de propriedade intelectual, como dados pessoais ou localização (conteúdo de PI), concedes-nos especificamente a seguinte autorização: concedes-nos uma licença mundial, não exclusiva, transmissível, passível de sublicenciamento e isenta de direitos de autor, para utilizarmos qualquer conteúdo PI que publiques no ou relacionado com o Surviving in Porto (Licença de PI). Essa Licença de PI termina quando eliminas os teus dados pessoais da conta (alterando os dados pessoais e submetendo o campo em branco), exceto se o conteúdo tiver sido partilhado com terceiros (apenas as localizações serão partilhados com terceiros) e estes não o tenham eliminado ou se desligares a funcionalidade GPS do dispositivo no caso da localização.
+2.	Quando eliminas conteúdo de PI, essa eliminação é processada de forma semelhante ao esvaziamento da reciclagem de um computador. Porém, compreendes que o conteúdo eliminado pode subsistir em cópias de segurança durante um período de tempo considerável (embora não continue disponível para terceiros), á excepção das localizações mais antigas nunca serão apagadas da base de dados Surviving in Porto.
+3.	Quando utilizas uma aplicação, esta poderá pedir a tua autorização para aceder ao teu conteúdo e informação, bem como ao conteúdo e informação que outras pessoas partilharam contigo.  Exigimos que as aplicações respeitem a tua privacidade e o acordo que estabeleceres com a aplicação em causa vai controlar a forma como esta pode utilizar, guardar e transferir tal conteúdo e informação.  (Para saberes mais sobre a Plataforma, incluindo a forma como podes controlar qual a informação que outras pessoas podem partilhar com aplicações, consulta a nossa Política de dados.)
+4.	Quando utilizes a função de localizar do GPS do teu dispositivo aceitas que as coordenadas sejam utilizadas nos serviços Surviving in Porto bem como para fins de marketing, sem qualquer restrição.
+5.	Agradecemos a tua opinião ou sugestões sobre o Surviving in Porto, mas deves compreender que podemos utilizá-las sem qualquer obrigação de te compensar pelas mesmas (tal como tu não tens qualquer obrigação de as fornecer).
+
+3.	Segurança
+
+Fazemos todos os possíveis para manter o Surviving in Porto seguro, mas não podemos garantir essa segurança. Precisamos da tua ajuda para manter o Surviving in Porto seguro, o que implica os seguintes compromissos da tua parte:
+1.	Não publicarás comunicações comerciais não autorizadas (como spam) no Surviving in Porto.
+2.	Não recolherás conteúdo ou informação dos utilizadores nem acederás ao Surviving in Porto por meios automatizados (como bots de recolha, robots, spiders ou scrapers) sem autorização prévia da nossa parte.
+3.	Não praticarás manobras de marketing multinível ilegais, como esquemas em pirâmide, no Surviving in Porto.
+4.	Não carregarás vírus ou outros códigos maliciosos.
+5.	Não solicitarás informações de início de sessão nem acederás a contas de terceiros.
+6.	Não publicarás conteúdo que: constitua discurso que incentiva o ódio, uma ameaça ou pornografia; incite à violência ou contenha nudez, ou violência explícita ou gratuita.
+7.	Não desenvolverás aplicações nem utilizarás aplicações de terceiros que incluam conteúdo relacionado com álcool, encontros ou outros conteúdos para adultos (incluindo publicidade) sem as restrições de idade adequadas.
+8.	Não utilizarás o Surviving in Porto para cometer qualquer ato ilegal, enganador, malicioso ou discriminatório.
+9.	Não cometerás qualquer ato que possa desativar, sobrecarregar ou impedir o bom funcionamento ou o aspeto do Surviving in Porto, como um ataque de recusa de serviço, interferências com a apresentação de páginas ou outras funcionalidades do Surviving in Porto.
+10.	Não facilitarás nem incentivarás quaisquer desrespeitos desta Declaração ou das nossas políticas.
+
+4.	Registo e segurança da conta
+
+Os utilizadores do Surviving in Porto fornecem o seu nome e dados verdadeiros e precisamos da tua ajuda para que assim continue a ser. Eis alguns compromissos que assumes para connosco relativamente ao registo e à manutenção da segurança da tua conta:
+1.	Não fornecerás qualquer informação pessoal falsa no Surviving in Porto nem criarás uma conta para terceiros sem autorização.
+2.	Não criarás mais do que uma conta pessoal.
+3.	Se desativarmos a tua conta, não criarás outra sem a nossa autorização.
+4.	Não utilizarás a tua conta pessoal com um intuito principal de proveito comercial.
+5.	Não utilizarás o Surviving in Porto se tiveres menos de 18 anos.
+6.	Não utilizarás o Surviving in Porto se tiveres sido condenado por qualquer crime sexual.
+7.	Manterás a tua informação de contacto correta e atualizada.
+8.	Não partilharás a tua palavra-passe (no caso dos programadores, a chave secreta), não permitirás o acesso à tua conta por parte de terceiros nem cometerás qualquer outro ato que possa pôr em perigo a segurança da tua conta.
+9.	Não transferirás a tua conta para terceiros sem a nossa autorização prévia por escrito.
+10.	Se escolheres um nome de utilizador ou meio de identificação semelhante para a tua conta ou Página, reservamo-nos o direito de o eliminar ou reclamar caso o consideremos oportuno (por exemplo, se o proprietário de uma marca comercial se queixar pela utilização de um nome de utilizador que não esteja diretamente ligado ao nome verdadeiro de um utilizador).
+
+5.	Proteger os direitos de terceiros
+
+Respeitamos os direitos de terceiros e esperamos que o utilizador faça o mesmo.
+1.	Não publicarás conteúdo nem cometerás qualquer ato no Surviving in Porto que constitua uma infração ou desrespeito dos direitos de terceiros ou da lei.
+2.	Podemos eliminar qualquer conteúdo ou informação que publiques no Surviving in Porto se considerarmos que estes constituem um desrespeito desta Declaração ou das nossas políticas.
+3.	Se eliminarmos o teu conteúdo por infração dos direitos de autor de terceiros e considerares que foi um erro, damos-te a oportunidade de recorrer.
+4.	Se infringires, repetidamente, os direitos de propriedade intelectual de terceiros, procederemos à desativação da conta do utilizador, quando apropriado.
+5.	Não utilizarás os nossos direitos de autor ou Marcas comerciais nem quaisquer marcas semelhantes que possam gerar confusão, exceto conforme permitido pelas nossas Normas de utilização de marcas ou mediante a nossa autorização prévia por escrito.
+6.	Se recolheres informação de utilizadores, deverás: obter o seu consentimento, esclarecer que és tu (e não o Surviving in Porto) que está a recolher a informação e publicar uma política de privacidade a explicar que informações recolhes e de que forma irás utilizá-las.
+7.	Não publicarás documentos de identificação nem informação financeira confidencial de ninguém no Surviving in Porto.
+8.	Não identificarás utilizadores nem enviarás convites por e-mail a não utilizadores sem o respetivo consentimento. O Surviving in Porto disponibiliza  uma secção de contacto com os desenvolvedores para permitir que os utilizadores façam comentários sobre identificações.
+
+6.	Dispositivos móveis e outros
+1.	Atualmente, disponibilizamos os nossos serviços móveis gratuitamente, mas não te esqueças de que continuam a aplicar-se as taxas e tarifas normais da tua operadora, como as tarifas cobradas por mensagens escritas e dados móveis.
+2.	Caso desatives ou mudes o teu número de telemóvel, deves proceder a criação de uma conta nova, de forma a não gerar redundâncias e que possas recuperar a tua conta devidamente quando necessário.
+3.	Aceitas e cedes todos os direitos necessários para permitir que os outros utilizadores sincronizem os respetivos dispositivos com qualquer informação que seja visível para estes no Surviving in Porto.
+
+7.	Acerca de anúncios e outros conteúdos comerciais disponibilizados ou aperfeiçoados pelo Suriviving in Porto
+
+O nosso objetivo é apresentar publicidade e outros conteúdos comerciais ou patrocinados que tenham valor para os nossos utilizadores e anunciantes. Para nos ajudar a fazer isso, aceitas o seguinte:
+1.	Concedes-nos autorização para utilizar o teu nome, conteúdo e informação em ligação com conteúdo comercial, patrocinado ou relacionado disponibilizado ou aperfeiçoado por nós. Isto significa, por exemplo, que autorizas que uma empresa ou outra entidade nos pague para apresentar o teu nome e/ou o teu conteúdo ou informação, sem que te seja atribuída qualquer compensação. Não cedemos o teu conteúdo ou informação a anunciantes sem o teu consentimento.
+2.	Deves compreender que poderemos nem sempre identificar serviços e comunicações pagas como tal.
+
+8.	Cláusulas especiais aplicáveis a anunciantes
+
+Caso pretendas anunciar algo na aplicação, o conteúdo preenchido no formulário será examinado pelos desenvolvedores e devidamente corrigido se for o caso. Este apenas será publicado após passar pelo período de aprovação que notificará o anunciante dependendo do resultado. A aprovação será efetuada mediante o consentimento dos desenvolvedores em questões de veracidade do anúncio em questão e após a análise se o anúncio em questão é apropriado aos utilizadores conforme os termos aqui descritos nos restantes pontos. Posto isto, o anuncio será mostrado na secção destinada após pagamento.
+9.	Cláusulas especiais aplicáveis a software
+1.	Se descarregares ou usares o nosso software, como um produto de software autónomo (uma aplicação) aceitas que, ocasionalmente, esse software possa descarregar e instalar atualizações e funcionalidades adicionais introduzidas por nós para melhorar, valorizar e desenvolver o software.
+2.	Não irás modificar, criar obras derivadas de, descompilar ou tentar extrair através de qualquer método, código fonte do nosso produto, salvo se tiveres autorização expressa para o fazer ao abrigo de uma licença de código aberto ou caso te seja concedida autorização expressa por escrito da nossa parte.
+
+10.	Alterações
+1.	Iremos notificar-te antes de efetuarmos alterações a estes termos e dar-te-emos a oportunidade de consultar e comentar os termos revistos antes de continuares a utilizar os nossos Serviços.
+2.	Se alterarmos políticas, normas ou outros termos mencionados ou incluídos nesta Declaração, poderemos notificar a Página de regulação do site.
+3.	A tua utilização contínua dos Serviços do Surviving in Porto após o aviso de alterações efetuadas aos nossos termos, políticas ou normas constitui uma aceitação dos termos, políticas ou normas corrigidos.
+
+11.	Rescisão
+
+Se desrespeitares o texto ou espírito desta Declaração ou, de alguma forma, criares riscos ou possíveis perigos legais para nós, podemos parar de te disponibilizar parte ou a totalidade do Surviving in Porto. Serás notificado/a por e-mail ou da próxima vez que tentares aceder à tua conta. Podes também eliminar a tua conta ou desativar a tua aplicação a qualquer momento. Esses casos resultam na cessação desta Declaração, mas continuam a ser aplicáveis as seguintes cláusulas: 2, 2.1,2.2.
+
+12.	Conflitos
+1.	Aceitas resolver qualquer reclamação, fundamento para ação legal ou litígio (processo) que tenhas connosco, proveniente de ou relacionado com esta Declaração ou com o Surviving in Porto, exclusivamente no Tribunal da Relação do Porto, sujeitando-te à jurisdição de tais tribunais para o propósito de litigar tais processos. Esta Declaração, bem como qualquer reclamação que possa surgir entre nós, independentemente de disposições legais em conflito, é regida pelas leis de Portugal.
+2.	Se alguém apresentar uma reclamação contra nós relacionada com as tuas ações, conteúdo ou informação no Surviving in Porto, aceitas indemnizar-nos e isentar-nos de qualquer responsabilidade no que diz respeito a todos os danos, perdas e despesas de qualquer espécie (incluindo custos e taxas legais razoáveis) relacionados com a reclamação. Embora estabeleçamos regras de conduta para utilizadores, não controlamos nem dirigimos as ações dos utilizadores no Surviving in Porto, nem somos responsáveis pelo conteúdo ou informação que os utilizadores transmitem ou partilham no Surviving in Porto. Não somos responsáveis por qualquer conteúdo ou informação ofensivos, inadequados, obscenos, ilícitos ou de alguma forma censuráveis que possas encontrar no Surviving in Porto. Não somos responsáveis pela conduta, online ou offline, de qualquer utilizador do Surviving in Porto.
+3.	TENTAMOS MANTER O SURVIVING IN PORTO ATIVO, ISENTO DE FALHAS E SEGURO, MAS A UTILIZAÇÃO QUE FAZES DELE É POR TUA CONTA E RISCO. FORNECEMOS O SURVIVING IN PORTO TAL COMO ESTÁ, SEM QUAISQUER GARANTIAS EXPLÍCITAS OU IMPLÍCITAS, INCLUINDO, MAS SEM CARIZ LIMITATIVO, A GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E NÃO INFRAÇÃO. NÃO GARANTIMOS QUE O SURVIVING IN PORTO SERÁ SEMPRE SEGURO, PROTEGIDO OU ISENTO DE ERROS, NEM QUE O SURVIVING IN PORTO IRÁ FUNCIONAR SEMPRE SEM INTERRUPÇÕES, ATRASOS OU IMPERFEIÇÕES. O SURVIVING IN PORTO NÃO É RESPONSÁVEL PELAS AÇÕES, CONTEÚDO, INFORMAÇÃO OU DADOS DE TERCEIROS, SENDO QUE POR ESTE MEIO NOS ISENTAS, BEM COMO AOS NOSSOS DIRETORES, EXECUTIVOS, FUNCIONÁRIOS E AGENTES, DE QUAISQUER RECLAMAÇÕES POR DANOS, CONHECIDOS OU DESCONHECIDOS, DECORRENTES DE OU DE ALGUMA FORMA RELACIONADOS COM QUALQUER RECLAMAÇÃO QUE TENHAS CONTRA OS REFERIDOS TERCEIROS.NÃO SOMOS RESPONSÁVEIS POR QUAISQUER PERDAS DE LUCROS OU OUTROS PREJUÍZOS CONSEQUENTES, ESPECIAIS, INDIRETOS OU SECUNDÁRIOS DECORRENTES DE OU RELACIONADOS COM ESTA DECLARAÇÃO OU COM O SURVIVING IN PORTO, AINDA QUE TENHAMOS SIDO AVISADOS DA POSSIBILIDADE DESSES PREJUÍZOS. A LEI APLICÁVEL PODERÁ NÃO PERMITIR A LIMITAÇÃO OU EXCLUSÃO DE RESPONSABILIDADE POR DANOS SECUNDÁRIOS OU CONSEQUENTES, PELO QUE A LIMITAÇÃO OU EXCLUSÃO SUPRACITADAS PODERÃO NÃO SE APLICAR NO TEU CASO. NESSES CASOS, A RESPONSABILIDADE DO SURVIVING IN PORTO SERÁ LIMITADA NA MEDIDA MÁXIMA PERMITIDA PELA LEI APLICÁVEL.
+
+13.	Cláusulas especiais aplicáveis para utilizadores fora do distrito do Porto
+
+Esforçamo-nos por criar uma comunidade baseada no distrito do Porto com padrões consistentes para todos, mas também nos esforçamos por respeitar a legislação local. As cláusulas que se seguem aplicam-se a utilizadores e não utilizadores que interajam com o Surviving in Porto fora do distrito do Porto ou Portugal continental:
+1.	Aceitas que os teus dados pessoais sejam transferidos para Portugal e processados no distrito do Porto.
+2.	Se estiveres num país que se encontre sob um embargo por parte de Portugal, não podes exercer atividades comerciais no Surviving in nem gerir uma conta na plataforma. Não utilizarás o Surviving in Porto caso estejas proibido de receber produtos, serviços ou software provenientes de Portugal.
+
+
+
+
+14.	Definições
+1.	Os termos  'Surviving in Porto' ou 'Serviços' designam as funcionalidades e serviços que disponibilizamos, incluindo os fornecidos através da nossa aplicação Surviving in Porto e quaisquer outros sites com a marca, ou em parceria com a marca Surviving in Porto, dispositivos ou redes já existentes ou que venham a ser desenvolvidos. O Surviving in Porto reserva o direito de designar, no seu exclusivo critério, que determinadas marcas, produtos ou serviços são regidos por termos separados e não por esta DDR.
+2.	O termo 'Plataforma' designa um conjunto de API e serviços (como conteúdos) que permite a terceiros, incluindo programadores de aplicações e operadores de sites, obterem dados a partir do Surviving in Porto ou fornecerem-nos dados.
+3.	O termo 'informação' designa factos e outras informações a teu respeito, incluindo ações praticadas por utilizadores e não utilizadores que interajam com o Surviving in Porto.
+4.	O termo 'conteúdo' designa tudo aquilo que tu ou os outros utilizadores publicam, disponibilizam ou partilham através dos Serviços do Surviving in Porto.
+5.	Os termos 'dados', 'dados de utilizador' ou 'dados pessoais' designam quaisquer dados, incluindo o conteúdo e informação de um utilizador que tu ou terceiros possam obter a partir do Surviving in Porto ou fornecer ao Surviving in Porto através da Plataforma.
+6.	O termo 'publicar' significa publicar no Surviving in Porto ou, de alguma forma, disponibilizar através da utilização do Surviving in Porto.
+7.	O termo 'utilizar' designa a utilização, a execução, a cópia, a reprodução ou exibição pública, a distribuição, a modificação, a tradução ou a criação de obras derivadas.
+8.	O termo 'aplicação' significa qualquer aplicação ou site que utilize ou aceda à Plataforma, bem como qualquer outra coisa que receba ou tenha recebido dados da nossa parte.  Se já não acedes à Plataforma, mas não eliminaste todos os dados que recebeste da nossa parte, o termo aplicação aplica-se até que elimines os dados.
+9.	O termo 'Marketing' significa todas as acções de marketing ou modelo de negócio relacionadas com o Surviving in Porto.
+
+15.	Outros
+1.	Esta Declaração constitui a totalidade do acordo entre as partes no que diz respeito ao Surviving in Porto e sobrepõe-se a quaisquer acordos anteriores.
+2.	Se alguma parte desta Declaração for considerada não exequível, continuarão a vigorar todas as partes restantes.
+3.	O facto de não impormos qualquer parte esta Declaração não constitui uma abdicação da nossa parte.
+4.	Qualquer emenda a ou abdicação desta Declaração deve ser realizada por escrito e assinada por nós.
+5.	Não transferirás para ninguém quaisquer direitos ou obrigações que te sejam impostos por esta Declaração sem a nossa autorização.
+6.	Todos os direitos e obrigações impostos por esta Declaração são livremente atribuíveis por nós em ligação a uma fusão, aquisição ou venda de ativos, bem como por força da lei ou qualquer outro motivo.
+7.	Nada nesta Declaração nos impedirá de cumprir a lei.
+8.	Esta Declaração não confere quaisquer direitos de terceiro beneficiário.
+9.	Reservamo-nos todos os direitos que não te sejam expressamente concedidos.
+10.	Cumprirás todas as leis aplicáveis quando utilizares ou acederes ao Surviving in Porto.
+
+Ao utilizar ou aceder aos Serviços do Surviving in Porto, aceitas que podemos recolher e utilizar tal conteúdo e informação de acordo com a Política de dados, e conforme a sua correção periódica."
+
+                android:textSize="16dip"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="24dp"
+                android:gravity="left"
+                android:id="@+id/txtv5"
+                android:text="Política de dados\n\n
+
+Que tipos de informações recolhemos?
+Recolhemos diferentes tipos de informações de ti ou sobre ti, consoante os Serviços que utilizas.
+Aquilo que fazes e as informações que forneces.
+Recolhemos o conteúdo e outras informações que forneces quando utilizas os nossos Serviços, incluindo quando te registas numa conta, partilhas dados pessoais ou permites ser localizado pelo GPS do teu dispositivo. Isto pode incluir informações presentes no ou sobre o conteúdo que forneceste, como a localização atual e os teus dados pessoais para todos os utilizadores acederem ou incluindo todas as localizações antigas para fins de marketing do Surviving in Porto. No caso das localizações antigas, permite-nos saber em que locais passas mais tempo e pelos dados pessoais e localização atual, permite-nos a nos e aos restantes utilizadores saber um pouco mais sobre ti e saber onde te encontras no momento.
+Recebemos informações sobre ti através de empresas que são propriedade ou geridas pelo Surviving in Porto, de acordo com os seus termos e políticas.
+
+Como utilizamos estas informações?
+Dedicamo-nos a criar experiências apelativas e personalizadas para as pessoas. Utilizamos todas as informações que temos para nos ajudar a fornecer e apoiar os nossos Serviços. Eis como o fazemos:
+Fornecer, melhorar e desenvolver Serviços.
+Podemos fornecer-te os nossos Serviços, personalizar conteúdo e fazer-te sugestões ao utilizar estas informações para compreendermos como utilizas e interages com os nossos Serviços e as pessoas ou coisas às quais estás ligado/a e interessado/a dentro e fora dos nossos Serviços.
+Realizamos inquéritos e pesquisas, testamos funcionalidades em desenvolvimento e analisamos as informações que temos para avaliar e melhorar esta aplicação, e possivelmente desenvolver novos produtos ou funcionalidades e realizar atividades de auditoria e de resolução de problemas.
+Comunicar contigo.
+Informar-te sobre as nossas políticas e termos. Também utilizamos as tuas informações para te responder quando entras em contacto connosco.
+Promover a segurança.
+Utilizamos as informações que temos para ajudar a verificar contas e atividade e para promover a segurança dentro e fora dos nossos Serviços, como ao investigar atividades suspeitas ou infrações dos nossos termos ou políticas.
+
+
+
+
+Como é que estas informações são partilhadas?
+Partilhar nos nossos Serviços.
+As pessoas utilizam os nossos Serviços para se ligarem e partilharem com outras pessoas. Tornamos isto possível ao partilhar as tuas informações das seguintes formas:
+Os restantes utilizadores da aplicação.
+No caso da localização antigas, os nossos parceiros de marketing.
+Quando partilhas e comunicas através dos nossos Serviços, tens noção que toda a gente poderá aceder aos Dados Pessoais que partilhaste bem como a tua localização atual.
+Em alguns casos, as pessoas com quem partilhas ou comunicas podem descarregar ou partilhar novamente este conteúdo com outras pessoas dentro e fora dos nossos Serviços.
+Se achas que uma pessoa publicou dados teus, não hesites em entrar contacto com os desenvolvedores a expor o teu problema, os contactos poderão ser encontrados na secção Contacte-nos da aplicação Surviving in Porto, para o efeito.
+Integrações de terceiros, apps e sites nos nossos Serviços ou a utilizar os mesmos.
+Quando utilizas apps, sites e outros serviços de terceiros que utilizam ou estão integrados nos nossos Serviços, estes podem receber informações sobre o que publicas ou partilhas. As informações recolhidas por estas apps, sites ou serviços integrados estão sujeitas aos respetivos termos e políticas.
+Partilhar entre possíveis empresas ou desenvolvedores do Surviving in Porto.
+Novo proprietário.
+Se a propriedade ou controlo da totalidade ou parte dos nossos Serviços ou dos seus ativos mudar, podemos transferir as tuas informações para o novo proprietário.
+Partilhar com parceiros e clientes
+
+
+Eis os tipos de terceiros com que podemos partilhar informações sobre ti:
+Serviços de publicidade, estatísticas e análise,ou seja, empresas ou estabelecimentos esses que estejam interessados nessas localizações ou dados pelas mais diversas razoes e que sejam parceiros ou clientes Surviving in Porto.
+
+
+Transferimos informações a fornecedores, clientes e outros parceiros que apoiam a nossa empresa globalmente, fornecendo os serviços pedidos, analisando a forma como os nossos Serviços são utilizados, medindo a eficácia dos anúncios e serviços, fornecendo apoio ao cliente, facilitando pagamentos ou realizando pesquisas e inquéritos académicos. Estes parceiros têm de estar em conformidade com obrigações de confidencialidade rigorosas de forma consistente com esta Política de Dados e com os acordos que com eles estabelecemos.
+
+Como posso gerir ou eliminar informações sobre mim?
+Se não pretendes que os restantes utilizadores saibam a tua localização atual, não poderás ligar a funcionalidade GPS do teu dispositivo. Ao aceder a aplicação após registo com o GPS estarás de acordo com os Termo de Serviço. Se pretendes que ninguém saiba Dados Pessoais sobre ti, não insiras ou apaga os dados previamente inseridos na secção da aplicação para esse efeito.
+Como respondemos a pedidos legais ou impedimos danos?
+Poderemos aceder a, preservar e partilhar informação do utilizador em resposta a uma solicitação legal (como um mandado de busca, ordem judicial ou intimação) caso consideremos, em boa-fé, que a lei assim o exige. Isto pode incluir responder a solicitações legais de jurisdições fora de Portugal, onde consideremos, em boa-fé, que tal resposta seja obrigatória por lei nessa jurisdição, que afete os utilizadores em tal jurisdição e que seja consistente com as normas internacionalmente reconhecidas. Também poderemos aceder a, preservar e partilhar informação quando considerarmos, em boa-fé, que tal é necessário para: detetar, prevenir e abordar uma situação de fraude e outras atividades ilegais; proteger-nos a nós próprios, proteger o utilizador e outros, incluindo como parte de investigações; e prevenir uma situação iminente de morte ou ferimentos físicos. Por exemplo, podemos fornecer informações a parceiros sobre a fiabilidade da tua conta para impedir fraude e abuso dentro e fora dos nossos Serviços. É possível aceder, processar e reter as informações que recebemos sobre ti. Também poderemos preservar informação de contas desativadas devido a infrações dos nossos termos, durante um período mínimo de um ano, para evitar o abuso ou outras infrações dos nossos termos.
+
+
+
+Como vamos notificar-te relativamente a alterações a esta política?
+Vamos notificar-te antes de efetuarmos alterações a esta política e dar-te-emos a oportunidade de consultar e comentar a política revista antes de continuares a utilizar os nossos Serviços.
+
+
+Como podes contactar o Surviving in Porto com perguntas
+Se tens perguntas sobre esta política, eis como podes contactar-nos:
+Envia um e-mail para um dos desenvolvedores ou para ambos expondo a tua dúvida.
+Ricardo Silva: ricardoapsilva93@hotmail.com
+Diogo Monteiro: diogomonteiro1991@gmail.com
+
+
+Data da última revisão: 20 de Junho de 2016"
+                android:textSize="16dip"
+                android:layout_below="@+id/txtv1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <TextView android:id="@+id/linkSignup10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Volte aqui para o Login!"
+                android:gravity="center"
+                android:textSize="16dip"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/txtv5"
+                android:onClick="loginWel"
+                android:clickable="true"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
